@@ -1,0 +1,60 @@
+# 🩸 BLUDEE - DEPENDENCIAS PYTHON
+# ================================
+# Archivo: requirements.txt
+# Uso: pip install -r requirements.txt
+
+# Framework web principal
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Base de datos
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# Autenticación y seguridad  
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+bcrypt==4.0.1
+passlib[bcrypt]==1.7.4
+
+# Validación de datos
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# Cliente HTTP (para hub colaborativo)
+httpx==0.25.2
+requests==2.31.0
+
+# Utilidades para fechas
+python-dateutil==2.8.2
+
+# Logging y monitoreo
+structlog==23.2.0
+
+# Testing (desarrollo)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Desarrollo y código limpio
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# CORS para frontend
+fastapi-cors==0.0.6
+
+# Jobs y tareas programadas
+celery==5.3.4
+redis==5.0.1
+
+# Email (para alertas)
+fastapi-mail==1.4.1
+
+# Documentación API
+mkdocs==1.5.3
+mkdocs-material==9.4.8
